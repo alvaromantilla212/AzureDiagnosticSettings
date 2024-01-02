@@ -179,7 +179,7 @@ Azure Storage Account
 
 $ az configure --defaults group=IGSYSAzureDiagnosticSettings
 $ az deployment mg create --name AnalysisMGDeployment --location EastUS2 --management-group-id b21b851b-e4c8-40c2-9ab8-3b992c86521b --template-file main.bicep
-$ az deployment mg create --name AnalysisMGDeployment --location EastUS2 --management-group-id b21b851b-e4c8-40c2-9ab8-3b992c86521b --template-file main.bicep
+$ az deployment mg create --name AnalysisMGDeployment --location EastUS2 --management-group-id b21b851b-e4c8-40c2-9ab8-3b992c86521b --template-file main.bicep --parameters main.bicepparam
 Please provide string value for 'loganalyticsregion' (? for help): EastUS2 
 Please provide string value for 'loganalytics1rid' (? for help): bffd40b5-727b-4f04-bd9d-4284acd1dcef
 Please provide string value for 'loganalytics2rid' (? for help): bffd40b5-727b-4f04-bd9d-4284acd1dcef
