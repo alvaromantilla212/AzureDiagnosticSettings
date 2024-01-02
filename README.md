@@ -177,4 +177,18 @@ Azure Storage Account
 •	StorageFileLogs
 •	StorageBlobLogs
 
-
+$ az configure --defaults group=IGSYSAzureDiagnosticSettings
+$ az deployment mg create --name AnalysisMGDeployment --location EastUS2 --management-group-id b21b851b-e4c8-40c2-9ab8-3b992c86521b --template-file main.bicep
+$ az deployment mg create --name AnalysisMGDeployment --location EastUS2 --management-group-id b21b851b-e4c8-40c2-9ab8-3b992c86521b --template-file main.bicep
+Please provide string value for 'loganalyticsregion' (? for help): EastUS2 
+Please provide string value for 'loganalytics1rid' (? for help): bffd40b5-727b-4f04-bd9d-4284acd1dcef
+Please provide string value for 'loganalytics2rid' (? for help): bffd40b5-727b-4f04-bd9d-4284acd1dcef
+Please provide string value for 'loganalytics3rid' (? for help): bffd40b5-727b-4f04-bd9d-4284acd1dcef
+Please provide string value for 'nsgflowlogworkspaceid' (? for help): bffd40b5-727b-4f04-bd9d-4284acd1dcef
+Please provide string value for 'mgmtsubscription' (? for help): Pay-as-you-go
+Please provide string value for 'mgmtresourcegroup' (? for help): IGSYSAzureDiagnosticSettings
+Please provide bool value for 'deploytier2' (? for help):  (t/f): true
+Please provide bool value for 'deploytier2' (? for help):  (t/f): true
+Please provide bool value for 'deploytier2' (? for help):  (t/f): true
+Please provide bool value for 'deploytier2' (? for help):  (t/f): t
+Please provide bool value for 'deploytier3' (? for help):  (t/f): t
